@@ -228,7 +228,7 @@ form {
 	padding:35px 0 393px 0;
 	color: #000000;
 	background-color:#F1F1F1;
-	border: 1px #D7D7D7 solid;	
+	border-bottom: 1px #D7D7D7 solid;	
 	background: url(../img/imac.png) 0 0 no-repeat;
 	background-position:center;
 
@@ -420,3 +420,61 @@ body, html {
     color: #fff;
 }
 
+
+
+
+/* ------------------Register Block----------------------- */
+
+.register {
+	background-color:#F7F7F7;
+	padding: 20px 0;
+	
+}
+
+
+.btn-register{
+	
+	border-radius:0;
+	height:40px;
+	margin: 15px 0px 15px 0px;
+	border-width:2px;
+		
+	
+}
+
+.register h3 {
+	
+	margin: 20px 0;
+	color:#7E7E7E;
+	
+	
+}
+
+
+/*--------------- Outlined Buttons----------------- */
+
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
